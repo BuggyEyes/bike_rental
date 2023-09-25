@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { editOfficer } from '../../../.store/actionCreators/officers'
 import classnames from 'classnames'
-
-const axios = require('axios').default
+import axios from "axios";
+// const axios = require('axios').default
 
 const OfficersListItem = (props) => {
     const { _id, index, email, firstName, lastName, password, clientId, approved, handleDelete } = props

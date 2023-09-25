@@ -2,8 +2,8 @@ import css from './SelectOfficers.module.css'
 import { SERVER, REQUESTS } from '../../const'
 import { useState } from 'react'
 import { useSelector } from 'react-redux'
-
-const axios = require('axios').default
+import axios from "axios";
+// const axios = require('axios').default
 
 const SelectOfficers = (props) => {
     const { inputValue, onChangeOfficer } = props

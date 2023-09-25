@@ -7,8 +7,8 @@ import { setCases, setLoadedCases, deleteCase } from '../../../.store/actionCrea
 import Header from '../../header/Header'
 import CasesListItem from '../list-item/CasesListItem'
 import data from '../../../mock-data.json'
-
-const axios = require('axios').default
+import axios from "axios";
+// const axios = require('axios').default
 
 const CasesList = () => {
     const dataCases = data.cases

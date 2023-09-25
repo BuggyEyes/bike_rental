@@ -7,8 +7,8 @@ import { setOfficers, setLoadedOfficers, deleteOfficer } from '../../../.store/a
 import Header from '../../header/Header'
 import OfficersListItem from '../list-item/OfficersListItem'
 import data from '../../../mock-data.json'
-
-const axios = require('axios').default
+import axios from "axios";
+// const axios = require('axios').default
 
 const OfficersList = () => {
     const dataOfficers = data.officers

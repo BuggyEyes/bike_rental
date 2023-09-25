@@ -8,8 +8,8 @@ import { editOfficer } from '../../.store/actionCreators/officers'
 import Header from '../header/Header'
 import InputText from '../../elements/input-text/InputText'
 import PageNothingNever from '../page-nothing-never/PageNothingNever'
-
-const axios = require('axios').default
+import axios from "axios";
+// const axios = require('axios').default
 
 const OfficerContent = () => {
     const params = useParams()

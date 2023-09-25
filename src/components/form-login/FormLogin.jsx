@@ -9,7 +9,7 @@ import InputText from '../../elements/input-text/InputText'
 import axios from "axios";
 // const axios = require('axios').default
 
-const VALID_EMAIL = 'ovel2405@yandex.ru';
+const VALID_EMAIL = 'ovel@yandex.ru';
 const VALID_PASSWORD = 'admin';
 
 const FormLogin = () => {

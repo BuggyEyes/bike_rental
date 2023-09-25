@@ -11,8 +11,8 @@ import InputText from '../../elements/input-text/InputText'
 import PageNothingNever from '../page-nothing-never/PageNothingNever'
 import SelectOfficersMock from '../../elements/select-officers-mock/SelectOfficersMock'
 import SelectOfficers from '../../elements/select-officers/SelectOfficers'
-
-const axios = require('axios').default
+import axios from "axios";
+// const axios = require('axios').default
 
 const CaseContent = () => {
     const params = useParams()
