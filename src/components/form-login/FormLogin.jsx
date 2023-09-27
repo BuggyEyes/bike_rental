@@ -125,7 +125,7 @@ const FormLogin = () => {
                 </div>
                 <form onSubmit={(e) => handleSubmit(e)} className={css.form}>
                     {/*{isLoading && <div>Загрузка...</div>}*/}
-                    {!isLoading && <InputText
+                    {<InputText  //!isLoading &&
                                         autofocus={true}
                                         placeholder={"Электронная почта"}
                                         inputValue={email}
@@ -137,7 +137,7 @@ const FormLogin = () => {
                                         errorMessage={value => 'Введите корректный адрес электронной почты'}
                     />}
                     {/*{isLoading && <div>Загрузка...</div>}*/}
-                    {!isLoading && <InputText
+                    {<InputText // !isLoading &&
                                         placeholder={"Пароль"}
                                         isPassword
                                         inputValue={password}
